@@ -45,7 +45,20 @@ p.headinfo{
 	font-family: "Lucida Console";
 	color: grey;
 }
-
+p.headinfo:link{
+	padding-right: 10px;
+	padding-top: 0px;
+	font-size: 15px;
+	font-family: "Lucida Console";
+	color: grey;
+}
+p.headinfo:visited{
+	padding-right: 10px;
+	padding-top: 0px;
+	font-size: 15px;
+	font-family: "Lucida Console";
+	color: grey;
+}
 
 #profilephoto{
 	-webkit-border-radius: 11px;
@@ -58,7 +71,11 @@ p.headinfo{
 	width: 25%;
 	height: 100%;
 }
-
+img{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-radius: 8px;
+}
 #tag{
 	-webkit-border-radius: 11px;
   	-moz-border-radius: 11;
