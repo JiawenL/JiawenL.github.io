@@ -1,17 +1,59 @@
 $(document).ready(function(){
-			$("#li1").mouseover(function(){
-				$("#lid1").show();
+			$("#game_li1").mouseover(function(){
+				$("#game_lid1").show();
 			}).mouseout(function(){
-				$("#lid1").hide();
+				$("#game_lid1").hide();
 			});
-			$("#li2").mouseover(function(){
-				$("#lid2").show();
+			$("#game_li2").mouseover(function(){
+				$("#game_lid2").show();
 			}).mouseout(function(){
-				$("#lid2").hide();
+				$("#game_lid2").hide();
 			});
-			$("#li3").mouseover(function(){
-				$("#lid3").show();
+			$("#game_li3").mouseover(function(){
+				$("#game_lid3").show();
 			}).mouseout(function(){
-				$("#lid3").hide();
+				$("#game_lid3").hide();
+			});
+			
+			$("#project_li1").mouseover(function(){
+				$("#project_lid1").show();
+			}).mouseout(function(){
+				$("#project_lid1").hide();
+			});
+			$("#project_li2").mouseover(function(){
+				$("#project_lid2").show();
+			}).mouseout(function(){
+				$("#project_lid2").hide();
+			});
+			$("#project_li3").mouseover(function(){
+				$("#project_lid3").show();
+			}).mouseout(function(){
+				$("#project_lid3").hide();
+			});
+			$("#project_li4").mouseover(function(){
+				$("#project_lid4").show();
+			}).mouseout(function(){
+				$("#project_lid4").hide();
+			});
+			$("#project_li5").mouseover(function(){
+				$("#project_lid5").show();
+			}).mouseout(function(){
+				$("#project_lid5").hide();
+			});
+			
+						$("#fun_li1").mouseover(function(){
+				$("#fun_lid1").show();
+			}).mouseout(function(){
+				$("#fun_lid1").hide();
+			});
+			$("#fun_li2").mouseover(function(){
+				$("#fun_lid2").show();
+			}).mouseout(function(){
+				$("#fun_lid2").hide();
+			});
+			$("#fun_li3").mouseover(function(){
+				$("#fun_lid3").show();
+			}).mouseout(function(){
+				$("#fun_lid3").hide();
 			});
         });
