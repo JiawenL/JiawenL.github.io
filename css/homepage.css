@@ -97,7 +97,9 @@ p.headname{
 	font-family: "Arial";
 	color: #000000;
 }
-
+p.headname a:hover{
+	color: #000000;
+}
 p.headinfo{
 	padding-right: 10px;
 	padding-top: 0px;
@@ -124,7 +126,7 @@ a:active, a:hover{
 img{
 	padding-top: 5px;
 	padding-bottom: 5px;
-	border-radius: 58px;
+	border-radius: 8px;
 }
 #tag{
 	/*-webkit-border-radius: 11px;
