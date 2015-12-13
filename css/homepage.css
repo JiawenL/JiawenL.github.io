@@ -85,7 +85,7 @@ img{
 	/*background-color: #b5e853;*/
 	border-radius: 3px;
 	/*opacity: 0.3;*/
-	text-align: center;
+	text-align: left;
 	font-size: 20px;
 	color:grey;
 	font-family: "Lucida Console";
@@ -164,18 +164,17 @@ ul.presentitem li{
 .itemlabel{
 	display: inline-block;
 	z-index: 30;
-	width: 245px;
+	width: 247px;
 	height: 20px;
 	line-height: 20px;
 	border: 0px solid #ddd;
 	float: bottom;
 	margin-top: 180px;
 	position: relative;
-	color: grey;
+	color: rgb(157, 157, 157);
 	text-align: center;
 	font-family: "Lucida Console";
-	background-color: #b5e853;
-
+	background-color: rgba(19, 19, 19, 0.6);
 }
 ul.presentitem li img {
 	width: 245px;
