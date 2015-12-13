@@ -1,0 +1,17 @@
+$(document).ready(function(){
+			$("#li1").mouseover(function(){
+				$("#lid1").show();
+			}).mouseout(function(){
+				$("#lid1").hide();
+			});
+			$("#li2").mouseover(function(){
+				$("#lid2").show();
+			}).mouseout(function(){
+				$("#lid2").hide();
+			});
+			$("#li3").mouseover(function(){
+				$("#lid3").show();
+			}).mouseout(function(){
+				$("#lid3").hide();
+			});
+        });

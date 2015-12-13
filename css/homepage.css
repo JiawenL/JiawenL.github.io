@@ -8,20 +8,20 @@ body{
 	margin: auto;
 }
 #header{
-	-webkit-border-radius: 11px;
+	/*-webkit-border-radius: 11px;
   	-moz-border-radius: 11;
  	border-radius: 5px;
-  	border: solid black 2px;
+  	border: solid black 2px;*/
 	width: 100%;
 	height: 250px;
 	text-align: center;
 }
 
 #selfintro{
-	-webkit-border-radius: 11px;
+	/*-webkit-border-radius: 11px;
   	-moz-border-radius: 11;
  	border-radius: 5px;
-  	border: solid black 2px;
+  	border: solid black 2px;*/
   	float: left;
 	/*display: inline;*/
 	padding: 0px;
@@ -45,26 +45,15 @@ p.headinfo{
 	font-family: "Lucida Console";
 	color: grey;
 }
-p.headinfo:link{
-	padding-right: 10px;
-	padding-top: 0px;
-	font-size: 15px;
-	font-family: "Lucida Console";
-	color: grey;
-}
-p.headinfo:visited{
-	padding-right: 10px;
-	padding-top: 0px;
-	font-size: 15px;
-	font-family: "Lucida Console";
+a:visited,a:link,a:active{
 	color: grey;
 }
 
 #profilephoto{
-	-webkit-border-radius: 11px;
+/*	-webkit-border-radius: 11px;
   	-moz-border-radius: 11;
  	border-radius: 5px;
-  	border: solid black 2px;
+  	border: solid black 2px;*/
   	float: right;
 	/*display: inline;*/
 	padding: 0px;
@@ -77,15 +66,32 @@ img{
 	border-radius: 8px;
 }
 #tag{
-	-webkit-border-radius: 11px;
+	/*-webkit-border-radius: 11px;
   	-moz-border-radius: 11;
  	border-radius: 5px;
-  	border: solid black 2px;
+  	border: solid black 2px;*/
 	width: 100%;
-	height: 150px;
-	text-align: center;
-
+	height: 35px;
 	margin-top: 20px;
+}
+
+.tagdiv{
+	display: inline-block;
+	height: 35px;
+	line-height: 35px;
+	width: 150px;
+	margin: 0px;
+	float: left;
+	/*background-color: #b5e853;*/
+	border-radius: 3px;
+	/*opacity: 0.3;*/
+	text-align: center;
+	font-size: 20px;
+	color:grey;
+	font-family: "Lucida Console";
+}
+span{
+	margin: auto;
 }
 
 #gamespan{
@@ -94,10 +100,27 @@ img{
  	border-radius: 5px;
   	border: solid black 2px;
 	width: 100%;
+	height:auto!important;
 	height: 200px;
 	text-align: center;
-
+	min-height:200px;
 	margin-top: 20px;
+	word-wrap:break-word; overflow:hidden;
+
+}
+#funstuff{
+	-webkit-border-radius: 11px;
+  	-moz-border-radius: 11;
+ 	border-radius: 5px;
+  	border: solid black 2px;
+	width: 100%;
+	height:auto!important;
+	height: 200px;
+	text-align: center;
+	min-height:200px;
+	margin-top: 20px;
+	word-wrap:break-word; overflow:hidden;
+
 }
 #projectpan{
 	-webkit-border-radius: 11px;
@@ -105,12 +128,72 @@ img{
  	border-radius: 5px;
   	border: solid black 2px;
 	width: 100%;
+	min-height: 200px;
+	height:auto!important;
 	height: 200px;
 	text-align: center;
-
+	min-height:200px;
 	margin-top: 20px;
+	word-wrap:break-word; overflow:hidden;
 }
+ul.presentitem{
+	float: none;
+	list-style: none;
+	margin: 0;
+	padding: 0px;
+	width: 100%;
+	height: auto;
+/*	background-color: #FFF;
+*/	position: relative;
+	vertical-align: middle;
+	text-align: center;
+	left: auto;
+	top: auto;
+	right: auto;
+	bottom: auto;
+}
+ul.presentitem li{
+	margin: 0;
+	padding: 2px;
+	float: left;
+	position: relative;
+	width: 250px;
+	height: 200px;
+	vertical-align: middle;
+}
+.itemlabel{
+	display: inline-block;
+	z-index: 30;
+	width: 245px;
+	height: 20px;
+	line-height: 20px;
+	border: 0px solid #ddd;
+	float: bottom;
+	margin-top: 180px;
+	position: relative;
+	color: grey;
+	text-align: center;
+	font-family: "Lucida Console";
+	background-color: #b5e853;
 
+}
+ul.presentitem li img {
+	width: 245px;
+	height: 195px;
+	border: 0px solid #ddd;
+	padding: 3px;
+	position: absolute;
+	left: 0;
+	top: -1px;
+	-ms-interpolation-mode: bicubic;
+	float: left;
+	z-index: 20;
+}
+/*ul.presentitem li img.hover {
+	margin-top:15px;
+	background:url(./img/thumb_bg.png) no-repeat center center;
+	border: none;
+}*/
 
 
 
