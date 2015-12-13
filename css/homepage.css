@@ -1,12 +1,70 @@
 body{
-	background-color: #131313;
+	background-color: #FFFFFF;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 25px;
 }
+#divline{
+	width: 100%;
+	height: 1px;
+	background-color: #000000;
+	margin: 0px;
+}
+
 #outerbody{
 	width: 70%;
 	height: 100%;
 	text-align: center;
 	margin: auto;
+	z-index: 20;
 }
+#headspan{
+	width: 100%;
+	height:auto!important;
+	height: 200px;
+	text-align: center;
+	min-height:30px;
+	margin-top: 0px;
+	margin-bottom: 8px;
+	word-wrap:break-word; overflow:hidden;
+}
+ul.headitem{
+	float: none;
+	list-style: none;
+	margin: 0;
+	padding: 0px;
+	width: 100%;
+	height: auto;
+	position: relative;
+	vertical-align: middle;
+	text-align: center;
+	left: auto;
+	top: auto;
+	right: auto;
+	bottom: auto;
+}
+ul.headitem li{
+	margin: 0;
+	padding: 2px;
+	float: left;
+	position: relative;
+	width: 85px;
+	height: 30px;
+	vertical-align: middle;
+}
+p.headbutton{
+	font-size: 17px;
+	font-family: "Arial";
+	font-weight: 100;
+	color: #000000;
+}
+#headimage{
+	width: 100%;
+	height: 345px;
+	text-align: center;
+	max-width: 970px;
+}
+
 #header{
 	/*-webkit-border-radius: 11px;
   	-moz-border-radius: 11;
@@ -15,6 +73,8 @@ body{
 	width: 100%;
 	height: 250px;
 	text-align: center;
+	z-index: 20;
+	margin-top: 15px;
 }
 
 #selfintro{
@@ -25,17 +85,17 @@ body{
   	float: left;
 	/*display: inline;*/
 	padding: 0px;
-	width: 70%;
+	width: 60%;
 	height: 100%;
 	text-align: right;
 }
 
 p.headname{
-	padding-right: 10px;
 	padding-top: 0px;
+	padding-bottom: 0px;
 	font-size: 40px;
-	font-family: "Lucida Console";
-	color: #b5e853;
+	font-family: "Arial";
+	color: #000000;
 }
 
 p.headinfo{
@@ -45,8 +105,11 @@ p.headinfo{
 	font-family: "Lucida Console";
 	color: grey;
 }
-a:visited,a:link,a:active{
-	color: grey;
+a:visited,a:link{
+	color: #000000;
+}
+a:active, a:hover{
+	color: #ff502b;
 }
 
 #profilephoto{
@@ -57,7 +120,7 @@ a:visited,a:link,a:active{
   	float: right;
 	/*display: inline;*/
 	padding: 0px;
-	width: 25%;
+	width: 35%;
 	height: 100%;
 }
 img{
@@ -95,10 +158,10 @@ span{
 }
 
 #gamespan{
-	-webkit-border-radius: 11px;
+/*	-webkit-border-radius: 11px;
   	-moz-border-radius: 11;
  	border-radius: 5px;
-  	border: solid black 2px;
+  	border: solid black 2px;*/
 	width: 100%;
 	height:auto!important;
 	height: 200px;
@@ -108,34 +171,7 @@ span{
 	word-wrap:break-word; overflow:hidden;
 
 }
-#funstuff{
-	-webkit-border-radius: 11px;
-  	-moz-border-radius: 11;
- 	border-radius: 5px;
-  	border: solid black 2px;
-	width: 100%;
-	height:auto!important;
-	height: 200px;
-	text-align: center;
-	min-height:200px;
-	margin-top: 20px;
-	word-wrap:break-word; overflow:hidden;
 
-}
-#projectpan{
-	-webkit-border-radius: 11px;
-  	-moz-border-radius: 11;
- 	border-radius: 5px;
-  	border: solid black 2px;
-	width: 100%;
-	min-height: 200px;
-	height:auto!important;
-	height: 200px;
-	text-align: center;
-	min-height:200px;
-	margin-top: 20px;
-	word-wrap:break-word; overflow:hidden;
-}
 ul.presentitem{
 	float: none;
 	list-style: none;
@@ -143,8 +179,7 @@ ul.presentitem{
 	padding: 0px;
 	width: 100%;
 	height: auto;
-/*	background-color: #FFF;
-*/	position: relative;
+	position: relative;
 	vertical-align: middle;
 	text-align: center;
 	left: auto;
@@ -162,6 +197,21 @@ ul.presentitem li{
 	vertical-align: middle;
 }
 .itemlabel{
+	display: inline-block;
+	z-index: 30;
+	width: 297px;
+	height: 40px;
+	line-height: 20px;
+	border: 0px solid #ddd;
+	float: bottom;
+	margin-top: 198px;
+	position: relative;
+	color: rgb(157, 157, 157);
+	text-align: center;
+	font-family: "Lucida Console";
+	background-color: rgba(19, 19, 19, 0.6);
+}
+.itemlabelsmall{
 	display: inline-block;
 	z-index: 30;
 	width: 297px;
@@ -187,6 +237,17 @@ ul.presentitem li img {
 	-ms-interpolation-mode: bicubic;
 	float: left;
 	z-index: 20;
+}
+p.labelline1{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-size: 17px;
+	font-family: "Lucida Console";
+}
+p.labelline2{
+	margin-top: 0px;
+	font-size: 14px;
+	font-family: "Lucida Console";
 }
 /*ul.presentitem li img.hover {
 	margin-top:15px;

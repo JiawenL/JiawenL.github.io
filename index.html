@@ -1,64 +1,92 @@
 <!DOCTYPE html>
 <html  style="height: 100%;">
 <head>
-  <title>Jiawen Liang's Home Page</title>
+  <title>Jiawen's Portfolio</title>
   <script src="https://code.createjs.com/easeljs-0.8.1.min.js"></script>
   <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
   <script type="text/javascript" src="js/homepage.js"></script>
   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
   <link rel = "stylesheet" href="css/homepage.css" type="text/css">
   <style type="text/css">
-  </style>v
+  </style>
 </head>
 <body style="height: 100%; text-align: center;" >
+
 <div id = "outerbody">
+
+<div id = "headspan">
+	<ul class="headitem" style="display:block">
+		<li><p class = "headbutton"><a href = "#">Home</a></p></li>
+		<li><p class = "headbutton"><a href = "#">About</a></p></li>
+		<li><p class = "headbutton"><a href = "mailto:taobingxue@gmail.com" target="_blank">Contact</a></p></li>
+	</ul>
+</div>
+
+<div id = "divline" >
+</div>
+<div id = "headimage">
+	<img src="img/headimage.png" style="text-align:middle;" width="100%" height="100%"></img>
+</div>
+
+<p class = "headname">Jiawen Liang</p>
+<div id = "divline" >
+</div>
+
 <div id = "header">
 	<div id = "selfintro">
-		<p class = "headname">Jiawen Liang</p>
 		<p class = "headinfo"><a href = "resume.pdf" target="_blank">Resume</a></p>
 		<p class = "headinfo"><a href = "mailto:taobingxue@gmail.com" target="_blank">taobingxue@gmail.com</a></p>
 		<p class = "headinfo"><a href = "https://github.com/taobingxue" target="_blank">Github</a></p>
 	</div>
 	<div id = "profilephoto">
-		<img src = "img/Profile_Picture.png" width="100%" height="95%"></img>
+		<img src = "img/Profile_Picture.png" width="71%" height="95%"></img>
 	</div>
 </div>
-<div id = "tag">
-		<div class = "tagdiv"><span>&nbsp&nbspGames</span></div>
-</div>
-
 <div id = "gamespan">
 	<ul class="presentitem" style="display:block">
-		<li><a href="#"><img src="img/monster.jpg" id = "game_li1"></a><div class="itemlabel" id="game_lid1" style="display:none">label1</div></li>
-		<li><a href="#"><img src="img/icon/Game_02.jpg" id = "game_li2"></a><div class="itemlabel" id="game_lid2" style="display:none">label2</div></li>
-		<li><a href="#"><img src="img/icon/Game_03.png" id = "game_li3"></a><div class="itemlabel" id="game_lid3" style="display:none">label3</div></li>
+		<li><a href="#"><img src="img/monster.jpg" id = "game_li1"></a><div class="itemlabel" id="game_lid1" style="display:none">
+			<p class = "labelline1">Lei Luo Qing Shan</p>
+			<p class = "labelline2">RPG Game</p>
+		</div></li>
+		<li><a href="#"><img src="img/icon/Game_02.jpg" id = "game_li2"></a><div class="itemlabel" id="game_lid2" style="display:none">
+			<p class = "labelline1">Build Virtual World</p>
+			<p class = "labelline2">Five games</p>
+		</div></li>
+		<li><a href="#"><img src="img/icon/Game_03.png" id = "game_li3"></a><div class="itemlabel" id="game_lid3" style="display:none">
+			<p class = "labelline1">Dream in Tang Dynasty</p>
+			<p class = "labelline2">Life Simulation Game</p>
+		</div></li>
+		<li><a href="#"><img src="img/icon/Project_01.png" id = "project_li1"></a><div class="itemlabel" id="project_lid1" style="display:none">
+			<p class = "labelline1">Ray Tracer</p>
+			<p class = "labelline2">Course Project</p>
+		</div></li>
+		<li><a href="#"><img src="img/icon/Project_02.png" id = "project_li2"></a><div class="itemlabel" id="project_lid2" style="display:none">
+			<p class = "labelline1">Sigmod 2014</p>
+			<p class = "labelline2">Database competition</p>
+		</div></li>
+		<li><a href="img/projects/projects/Poster.pdf" target="_blank"><img src="img/icon/Project_03.jpg" id = "project_li3"></a><div class="itemlabel" id="project_lid3" style="display:none">
+			<p class = "labelline1">Background Subtractor</p>
+			<p class = "labelline2">Research Project</p>
+		</div></li>
+		<li><a href="#"><img src="img/icon/Project_04.png" id = "project_li4"></a><div class="itemlabel" id="project_lid4" style="display:none">
+			<p class = "labelline1">CELP-based Vocoder</p>
+			<p class = "labelline2">Course Project</p>
+		</div></li>
+		<li><a href="#"><img src="img/icon/Fun_01.jpg" id = "fun_li1"></a><div class="itemlabelsmall" id="fun_lid1" style="display:none">Design</div></li>
+		<li><a href="#"><img src="img/icon/Fun_02.png" id = "fun_li2"></a><div class="itemlabelsmall" id="fun_lid2" style="display:none">Paintings</div></li>
 	</ul>
 </div>
-
-<div id = "tag">
-		<div class = "tagdiv">&nbsp&nbspProgrammers</div>
-</div>
-
-<div id = "projectpan">
+<!-- <div id = "projectpan">
 	<ul class="presentitem" style="display:block">
-		<li><a href="#"><img src="img/icon/Project_01.png" id = "project_li1"></a><div class="itemlabel" id="project_lid1" style="display:none">label1</div></li>
-		<li><a href="#"><img src="img/icon/Project_02.png" id = "project_li2"></a><div class="itemlabel" id="project_lid2" style="display:none">label1</div></li>
-		<li><a href="#"><img src="img/icon/Project_03.jpg" id = "project_li3"></a><div class="itemlabel" id="project_lid3" style="display:none">label1</div></li>
-		<li><a href="#"><img src="img/icon/Project_04.png" id = "project_li4"></a><div class="itemlabel" id="project_lid4" style="display:none">label1</div></li>
+
 	</ul>
 </div>
-
-<div id = "tag">
-		<div class = "tagdiv">&nbsp&nbspFun Stuff</div>
-</div>
-
 <div id = "funstuff">
 	<ul class="presentitem" style="display:block">
-		<li><a href="#"><img src="img/icon/Fun_01.jpg" id = "fun_li1"></a><div class="itemlabel" id="fun_lid1" style="display:none">label1</div></li>
-		<li><a href="#"><img src="img/icon/Fun_02.png" id = "fun_li2"></a><div class="itemlabel" id="fun_lid2" style="display:none">label1</div></li>
+
 		<li><a href="#"><img src="img/icon/Fun_03.png" id = "fun_li3"></a><div class="itemlabel" id="fun_lid3" style="display:none">label1</div></li>
 	</ul>
-</div>
+</div> -->
 </div>
 </body>
 
