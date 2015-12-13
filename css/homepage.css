@@ -64,10 +64,10 @@ p.headbutton{
 }
 
 #header{
-	-webkit-border-radius: 11px;
+	/*-webkit-border-radius: 11px;
   	-moz-border-radius: 11;
  	border-radius: 5px;
-  	border: solid black 2px;
+  	border: solid black 2px;*/
 	width: 100%;
 	height: auto;
 	text-align: center;
@@ -75,15 +75,15 @@ p.headbutton{
 	margin-bottom: 15px;
 	margin-left: 0px;
 	margin-right: 0px;
+	word-wrap:break-word; overflow:hidden;
 }
 
 #selfintro{
-	-webkit-border-radius: 11px;
+	/*-webkit-border-radius: 11px;
   	-moz-border-radius: 11;
  	border-radius: 5px;
-  	border: solid black 2px;
+  	border: solid black 2px;*/
   	float: left;
-	/*display: inline;*/
 	padding: 0px;
 	width: 60%;
 	height: auto;
@@ -104,7 +104,7 @@ p.headinfo{
 	padding-right: 10px;
 	padding-top: 0px;
 	font-size: 15px;
-	font-family: "Lucida Console";
+	font-family: "Arial";
 	color: grey;
 }
 a:visited,a:link{
@@ -158,7 +158,7 @@ span{
 }
 
 #gamespan{
-/*	-webkit-border-radius: 11px;
+	/*-webkit-border-radius: 11px;
   	-moz-border-radius: 11;
  	border-radius: 5px;
   	border: solid black 2px;*/
@@ -167,9 +167,9 @@ span{
 	height: 200px;
 	text-align: center;
 	min-height:200px;
-	margin-top: 20px;
+	margin-top: 30px;
+	margin-bottom: 15px;
 	word-wrap:break-word; overflow:hidden;
-
 }
 
 ul.presentitem{
