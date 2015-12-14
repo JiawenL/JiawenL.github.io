@@ -15,7 +15,8 @@ a:active, a:hover{
 }
 
 #outerbody{
-	max-width: 930px;
+	width: 70%;
+	min-width: 780px;
 	margin: auto;
 	padding-top:20px;
 }
@@ -57,7 +58,6 @@ p.headinfo{
 	font-size: 15px;
 	font-family: "Arial";
 	color: grey;
-	
 }
 
 #gamespan{
@@ -90,6 +90,7 @@ div.itemlabel {
 	bottom: 0;
 	background: rgba(0, 0, 0, 0.7);
 	padding: 4px 0;
+	opacity: 0.6;
 }
 
 div.itemlabel p{
@@ -123,25 +124,26 @@ footer{
 }
 
 div.slider {
-	width: 700px;
-	height: 500px;
+	width: 75%;
+	height: auto;
 	margin:30px auto 50px;
 }
 
 div.slider img {
-    max-width: 700px;
-    max-height: 500px;
+	width: 100%;
+	height: auto;
 }
 
 #profile {
-    width: 80%;
+    width: 85%;
     margin: auto;
-    height: 200px;
+    height: auto;
+	overflow:hidden;
 }
 
 div.profiletext{
-    margin: 20px;
-    width: 500px;
+    margin: 0px;
+    width: 70%;
     display: inline-block;
 }
 
@@ -155,8 +157,9 @@ div.profiletext h3{
 }
 
 #profile img {
-    width: 200px;
-    height: 200px;
+    width: 30%;
+    height: auto;
     float: right;
     border-radius:7px;
+	margin-top: 20px;
 }
