@@ -1,113 +1,7 @@
 body{
-	background-color: #FFFFFF;
-	margin-left: 0px;
-	margin-right: 0px;
-	margin-top: 25px;
-}
-#divline{
-	width: 100%;
-	height: 1px;
-	background-color: #000000;
-	margin: 0px;
+	background-color: white;
 }
 
-#outerbody{
-	width: 70%;
-	height: 100%;
-	text-align: center;
-	margin: auto;
-}
-#headspan{
-	width: 100%;
-	height:auto!important;
-	text-align: center;
-	min-height:35px;
-	margin-top: 0px;
-	margin-bottom: 8px;
-	word-wrap:break-word; overflow:hidden;
-}
-
-ul.headitem{
-	float: none;
-	list-style: none;
-	margin: 0;
-	padding: 0px;
-	width: 100%;
-	height: auto;
-	position: relative;
-	vertical-align: middle;
-	text-align: center;
-	left: auto;
-	top: auto;
-	right: auto;
-	bottom: auto;
-}
-ul.headitem li{
-	margin: 0;
-	padding: 2px;
-	float: left;
-	position: relative;
-	width: 85px;
-	height: 30px;
-	vertical-align: middle;
-}
-p.headbutton{
-	font-size: 17px;
-	font-family: "Arial";
-	font-weight: 100;
-	color: #000000;
-}
-#headimage{
-	width: 100%;
-	height: auto;
-	text-align: center;
-	max-width: 970px;
-}
-
-#header{
-	/*-webkit-border-radius: 11px;
-  	-moz-border-radius: 11;
- 	border-radius: 5px;
-  	border: solid black 2px;*/
-	width: 100%;
-	height: auto;
-	text-align: center;
-	margin-top: 15px;
-	margin-bottom: 15px;
-	margin-left: 0px;
-	margin-right: 0px;
-	word-wrap:break-word; overflow:hidden;
-}
-
-#selfintro{
-	/*-webkit-border-radius: 11px;
-  	-moz-border-radius: 11;
- 	border-radius: 5px;
-  	border: solid black 2px;*/
-  	float: left;
-	padding: 0px;
-	width: 60%;
-	height: auto;
-	text-align: right;
-}
-
-p.headname{
-	padding-top: 0px;
-	padding-bottom: 0px;
-	font-size: 40px;
-	font-family: "Arial";
-	color: #000000;
-}
-p.headname a:hover{
-	color: #000000;
-}
-p.headinfo{
-	padding-right: 10px;
-	padding-top: 0px;
-	font-size: 15px;
-	font-family: "Arial";
-	color: grey;
-}
 a:visited,a:link{
 	color: #000000;
 }
@@ -115,166 +9,154 @@ a:active, a:hover{
 	color: #ff502b;
 }
 
-#profilephoto{
-/*	-webkit-border-radius: 11px;
-  	-moz-border-radius: 11;
- 	border-radius: 5px;
-  	border: solid black 2px;*/
-
-	width: 100%;
-	height: auto;
-}
-img{
-	padding-top: 5px;
-	padding-bottom: 5px;
-	border-radius: 8px;
-}
-#tag{
-	/*-webkit-border-radius: 11px;
-  	-moz-border-radius: 11;
- 	border-radius: 5px;
-  	border: solid black 2px;*/
-	width: 100%;
-	height: 35px;
-	margin-top: 20px;
+#headimage{
+    position: relative;
+    left: -20px;
 }
 
-.tagdiv{
-	display: inline-block;
-	height: 35px;
-	line-height: 35px;
-	width: 150px;
-	margin: 0px;
-	float: left;
-	/*background-color: #b5e853;*/
-	border-radius: 3px;
-	/*opacity: 0.3;*/
-	text-align: left;
-	font-size: 20px;
-	color:grey;
-	font-family: "Lucida Console";
-}
-span{
+#outerbody{
+	max-width: 930px;
 	margin: auto;
+	padding-top:20px;
+}
+
+#menu{
+	font-size: 17px;
+	font-family: "Arial";
+	list-style: none;
+	margin-bottom: -2px; 
+}
+
+#menu li { 
+	display: inline-block;
+	width: 85px;
+}
+
+#menu li a {
+	text-decoration:none; 
+}
+
+p.headname{
+	font-size: 40px;
+	font-family: "Arial";
+	text-align: center;
+}
+
+#selfintro{
+	width: 60%;
+	margin: 10px auto ;
+}
+
+#selfintro a{
+	margin: auto 20px;
+}
+
+p.headinfo{
+	padding-right: 10px;
+	padding-top: 0;
+	font-size: 15px;
+	font-family: "Arial";
+	color: grey;
+	
 }
 
 #gamespan{
-	/*-webkit-border-radius: 11px;
-  	-moz-border-radius: 11;
- 	border-radius: 5px;
-  	border: solid black 2px;*/
 	width: 100%;
-	height:auto!important;
-	height: 200px;
-	text-align: center;
 	min-height:200px;
 	margin-top: 30px;
 	margin-bottom: 15px;
-	word-wrap:break-word; overflow:hidden;
 }
 
-ul.presentitem{
-	float: none;
-	list-style: none;
-	margin: 0;
-	padding: 0px;
-	width: 100%;
-	height: auto;
-	position: relative;
-	vertical-align: middle;
-	text-align: center;
-	left: auto;
-	top: auto;
-	right: auto;
-	bottom: auto;
-}
-ul.presentitem li{
-	margin: 0;
-	padding: 2px;
-	float: left;
-	position: relative;
+#gamespan a{
 	width: 300px;
 	height: 240px;
-	vertical-align: middle;
-}
-.itemlabel{
 	display: inline-block;
-	z-index: 30;
-	width: 297px;
-	height: 40px;
-	line-height: 20px;
-	border: 0px solid #ddd;
-	float: bottom;
-	margin-top: 198px;
-	position: relative;
-	color: rgb(157, 157, 157);
+	text-decoration:none; 
 	text-align: center;
-	font-family: "Lucida Console";
-	background-color: rgba(19, 19, 19, 0.6);
-}
-.itemlabelsmall{
-	display: inline-block;
-	z-index: 30;
-	width: 297px;
-	height: 20px;
-	line-height: 20px;
-	border: 0px solid #ddd;
-	float: bottom;
-	margin-top: 218px;
 	position: relative;
-	color: rgb(157, 157, 157);
-	text-align: center;
-	font-family: "Lucida Console";
-	background-color: rgba(19, 19, 19, 0.6);
+	overflow: hidden;
 }
-ul.presentitem li img {
-	width: 295px;
-	height: 235px;
-	border: 0px solid #ddd;
-	padding: 3px;
-	position: absolute;
-	left: 0;
-	top: -1px;
-	-ms-interpolation-mode: bicubic;
-	float: left;
-	z-index: 20;
-}
-p.labelline1{
-	margin-top: 0px;
-	margin-bottom: 0px;
-	font-size: 17px;
-	font-family: "Lucida Console";
-}
-p.labelline2{
-	margin-top: 0px;
-	font-size: 14px;
-	font-family: "Lucida Console";
-}
-/*ul.presentitem li img.hover {
-	margin-top:15px;
-	background:url(./img/thumb_bg.png) no-repeat center center;
-	border: none;
-}*/
 
-#emptyzone{
+#gamespan a img{
 	width: 100%;
-	height: 30px;
-	background-color: #FFFFFF;
-	margin: 0px;
-}
-#centerintro{
-	width: 70%;
-	height: auto;
-	text-align: center;
-	padding-top: 35px;
-	margin: auto;
-	word-wrap:break-word; overflow:hidden;
-}
-p.introscript{
-	margin-top: 0px;
-	text-align: left;
-	font-size: 16px;
-	font-family: "Lucida Console";
-	line-height: 20px;
+	height: 100%;
+    border-radius:10px;
 }
 
+div.itemlabel {
+	z-index: 99;
+	width:100%;
+	position: absolute;
+	bottom: 0;
+	background: rgba(0, 0, 0, 0.7);
+	padding: 4px 0;
+}
+
+div.itemlabel p{
+	color: white;
+	margin: auto;
+	line-height: 20px;
+	font-family: "Lucida Console";
+}
+
+div.itemlabel p:first-child {
+	font-size: 120%;
+}
+
+.title {
+	text-align: center;
+	margin: 40px auto;
+	font-size: 40px;
+	font-family: "Arial";
+	color: #000000;
+}
+
+div.text {
+	max-width: 700px;
+	margin: 40px auto;
+}
+
+footer{
+	font-size:12px;
+	font-family:Arial, Helvetica, sans-serif;
+	text-align: center;
+}
+
+div.slider {
+	width: 700px;
+	height: 500px;
+	margin:30px auto 50px;
+}
+
+div.slider img {
+    max-width: 700px;
+    max-height: 500px;
+}
+
+#profile {
+    width: 80%;
+    margin: auto;
+    height: 200px;
+}
+
+div.profiletext{
+    margin: 20px;
+    width: 500px;
+    display: inline-block;
+}
+
+div.profiletext p {
+}
+
+div.profiletext h3{
+    text-align: center;
+    font-weight:bold;
+    font-family: "Lucida Console";
+}
+
+#profile img {
+    width: 200px;
+    height: 200px;
+    float: right;
+    border-radius:7px;
+}

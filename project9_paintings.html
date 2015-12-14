@@ -1,40 +1,53 @@
-<html  style="height: 100%;">
+<!DOCTYPE html>
+<html>
 <head>
-  <title>Paintings</title>
-  <script src="https://code.createjs.com/easeljs-0.8.1.min.js"></script>
-  <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
-  <script type="text/javascript" src="js/homepage.js"></script>
-  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
-  <link rel = "stylesheet" href="css/homepage.css" type="text/css">
-  <style type="text/css">
-  </style>
+    <title>Jiawen's Portfolio</title>
+    <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+    <link rel = "stylesheet" href="css/homepage.css" type="text/css">
+    <script type="text/javascript" src="js/slick.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
 </head>
-<body style="height: 100%; text-align: center;" >
-
+<body>
 <div id = "outerbody">
 
-<div id = "headspan">
-	<ul class="headitem" style="display:block">
-		<li><p class = "headbutton"><a href = "index.html">Home</a></p></li>
-		<li><p class = "headbutton"><a href = "index.html#myname">About</a></p></li>
-		<li><p class = "headbutton"><a href = "mailto:taobingxue@gmail.com" target="_blank">Contact</a></p></li>
-	</ul>
-</div>
-<div id = "divline" >
+    <ul id="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html#myname">About</a></li>
+        <li><a href="mailto:taobingxue@gmail.com">Contact</a></li>
+    </ul>
+
+    <hr />
+    <h2 class="title">Paintings</h2>
+    <div class="text">
+	    <p>Some paintings of mine. I have learned traditional chinese painting for four years.</p>
+    </div>
+
+    <div class="slider">
+        <img src="img/projects/funs/painting/0.jpg">
+        <img src="img/projects/funs/painting/1.jpg">
+        <img src="img/projects/funs/painting/2.jpg">
+        <img src="img/projects/funs/painting/3.jpg">
+    </div>
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.slider').slick({
+                autoplay:true,
+                dots: true,
+                infinite: true,
+                fade: true,
+                cssEase: 'linear',
+                arrows:false
+            });
+        })
+    </script>
+
+    <hr />
+    <footer>
+        <p >&copy; 2015 Jiawen's. All rights reserved.</p>
+    </footer>
 </div>
 
-<div id = "emptyzone" ></div>
-<p class = "headname">Paintings</p>
-<div id = "divline" >
-</div>
-
-<div id = "centerintro">
-	<p class = "introscript">
-		Some paintings of mine. I have learned traditional chinese painting for four years. <br>
-	</p>
-</div>
-
-<div id = "divline" >
-</div>
-<span style="font-size:12px;font-family:Arial, Helvetica, sans-serif;" ><br>&#169 2015 Jiawen's. All rights reserved.<br>&nbsp</span>
-</div>
+</body>
+</html>
