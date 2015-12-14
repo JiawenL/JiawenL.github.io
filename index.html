@@ -1,103 +1,131 @@
 <!DOCTYPE html>
-<html  style="height: 100%;">
+<html>
 <head>
-  <title>Jiawen's Portfolio</title>
-  <script src="https://code.createjs.com/easeljs-0.8.1.min.js"></script>
-  <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
-  <script type="text/javascript" src="js/homepage.js"></script>
-  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
-  <link rel = "stylesheet" href="css/homepage.css" type="text/css">
-  <style type="text/css">
-  </style>
+	<title>Jiawen's Portfolio</title>
+	<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+	<link rel = "stylesheet" href="css/homepage.css" type="text/css">
 </head>
-<body style="height: 100%; text-align: center;" >
-
+<body>
 <div id = "outerbody">
-
-<div id = "headspan">
-	<ul class="headitem" style="display:block">
-		<li><p class = "headbutton"><a href = "#">Home</a></p></li>
-		<li><p class = "headbutton"><a href = "#myname">About</a></p></li>
-		<li><p class = "headbutton"><a href = "mailto:taobingxue@gmail.com" target="_blank">Contact</a></p></li>
+	
+	<ul id="menu">
+		<li><a href="index.html#">Home</a></li>
+		<li><a href="index.html#myname">About</a></li>
+		<li><a href="mailto:taobingxue@gmail.com">Contact</a></li>
 	</ul>
-</div>
+	
+	<hr />
 
-<div id = "divline" >
-</div>
-<div id = "headimage">
-	<img src="img/headimage.png" style="text-align:middle;" width="100%" height="100%"></img>
-</div>
+	<img id="headimage" src="img/headimage.png">
 
-<p class = "headname"><a name="myname">Jiawen Liang</a></p>
-<div id = "divline" >
-</div>
+	<p class="headname" id="myname">Jiawen Liang</p>
 
-<div id = "header">
-	<div id = "profilephoto">
-		<img src="img/headphoto.png" style="text-align:middle;" width="100%" height="100%"></img>
+	<hr />
+
+	<div id="header">
+		<div id="profile">
+
+			<div class="profiletext">
+				<h3>title</h3>
+				<p>
+					aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+				<p>
+				<p>
+					bbbbbbbbbbbbbbbbbbbbbbb
+				<p>
+			</div>
+			<img src="img/pp.png">
+		</div>
+		<div id="selfintro">
+			<a href="resume.pdf">Resume</a>
+			<a href="mailto:taobingxue@gmail.com">taobingxue@gmail.com</a>
+			<a href="https://github.com/taobingxue">Github</a>
+		</div>
 	</div>
-	<div id = "selfintro">
-		<p class = "headinfo">
-			<a href = "resume.pdf" target="_blank">Resume</a>&nbsp&nbsp
-			<a href = "mailto:taobingxue@gmail.com" target="_blank">taobingxue@gmail.com</a>&nbsp&nbsp
-			<a href = "https://github.com/taobingxue" target="_blank">Github</a>&nbsp&nbsp
-		</p>
+	<hr />
+	
+	<div id="gamespan">
+		<a href="#">
+				<img src="img/icon/Game_01.jpg">
+				<div class="itemlabel">
+					<p>Lei Luo Qing Shan</p>
+					<p>RPG Game</p>
+				</div>
+		</a>
+		<a href="#">
+				<img src="img/icon/Game_02.jpg">
+				<div class="itemlabel">
+					<p>Build Virtual World</p>
+					<p>Five games</p>
+				</div>
+		</a>
+		<a href="#">
+			<img src="img/icon/Game_03.png">
+				<div class="itemlabel">
+					<p>Dream in Tang Dynasty</p>
+					<p>Life Simulation Game</p>
+				</div>
+		</a>
+		<a href="#">
+				<img src="img/icon/Project_01.png">
+				<div class="itemlabel">
+					<p>Ray Tracer</p>
+					<p>Course Project</p>
+				</div>
+		</a>
+		<a href="project5_sigmod.html">
+				<img src="img/icon/Project_02.png">
+				<div class="itemlabel">
+					<p>Sigmod 2014</p>
+					<p>Database competition</p>
+				</div>
+		</a>
+		<a href="img/projects/projects/Poster.pdf">
+				<img src="img/icon/Project_03.jpg">
+				<div class="itemlabel">
+					<p>Background Subtractor</p>
+					<p>Research Project</p>
+				</div>
+		</a>
+		<a href="project7_vocoder.html">
+				<img src="img/icon/Project_04.png">
+				<div class="itemlabel">
+					<p>CELP-based Vocoder</p>
+					<p>Course Project</p>
+				</div>
+		</a>
+		<a href="project8_calendar.html" >
+				<img src="img/icon/Fun_01.jpg">
+				<div class="itemlabel">
+					<p>Design</p>
+				</div>
+		</a>
+		<a href="project9_paintings.html">
+				<img src="img/icon/Fun_02.png">
+				<div class="itemlabel">
+					<p>Paintings</p>
+				</div>
+		</a>
 	</div>
-</div>
-<div id = "divline" >
-</div>
+	<hr />
 
-<div id = "gamespan">
-	<ul class="presentitem" style="display:block">
-		<li><a href="#"><img src="img/icon/Game_01.jpg" id = "game_li1"></a><div class="itemlabel" id="game_lid1" style="display:none">
-			<p class = "labelline1">Lei Luo Qing Shan</p>
-			<p class = "labelline2">RPG Game</p>
-		</div></li>
-		<li><a href="#"><img src="img/icon/Game_02.jpg" id = "game_li2"></a><div class="itemlabel" id="game_lid2" style="display:none">
-			<p class = "labelline1">Build Virtual World</p>
-			<p class = "labelline2">Five games</p>
-		</div></li>
-		<li><a href="#"><img src="img/icon/Game_03.png" id = "game_li3"></a><div class="itemlabel" id="game_lid3" style="display:none">
-			<p class = "labelline1">Dream in Tang Dynasty</p>
-			<p class = "labelline2">Life Simulation Game</p>
-		</div></li>
-		<li><a href="#"><img src="img/icon/Project_01.png" id = "project_li1"></a><div class="itemlabel" id="project_lid1" style="display:none">
-			<p class = "labelline1">Ray Tracer</p>
-			<p class = "labelline2">Course Project</p>
-		</div></li>
-		<li><a href="project5_sigmod.html" target="_blank"><img src="img/icon/Project_02.png" id = "project_li2"></a><div class="itemlabel" id="project_lid2" style="display:none">
-			<p class = "labelline1">Sigmod 2014</p>
-			<p class = "labelline2">Database competition</p>
-		</div></li>
-		<li><a href="img/projects/projects/Poster.pdf" target="_blank"><img src="img/icon/Project_03.jpg" id = "project_li3"></a><div class="itemlabel" id="project_lid3" style="display:none">
-			<p class = "labelline1">Background Subtractor</p>
-			<p class = "labelline2">Research Project</p>
-		</div></li>
-		<li><a href="project7_vocoder.html" target="_blank"><img src="img/icon/Project_04.png" id = "project_li4"></a><div class="itemlabel" id="project_lid4" style="display:none">
-			<p class = "labelline1">CELP-based Vocoder</p>
-			<p class = "labelline2">Course Project</p>
-		</div></li>
-		<li><a href="project8_calendar.html" target="_blank"><img src="img/icon/Fun_01.jpg" id = "fun_li1"></a><div class="itemlabelsmall" id="fun_lid1" style="display:none">Design</div></li>
-		<li><a href="project9_paintings.html" target="_blank"><img src="img/icon/Fun_02.png" id = "fun_li2"></a><div class="itemlabelsmall" id="fun_lid2" style="display:none">Paintings</div></li>
-	</ul>
-</div>
-<div id = "divline" >
-</div>
+	<footer>
+		<p >&copy; 2015 Jiawen's. All rights reserved.</p>
+	</footer>
 
-<span style="font-size:12px;font-family:Arial, Helvetica, sans-serif;" ><br>&#169 2015 Jiawen's. All rights reserved.<br>&nbsp</span>
-
-<!-- <div id = "projectpan">
-	<ul class="presentitem" style="display:block">
-
-	</ul>
-</div>
-<div id = "funstuff">
-	<ul class="presentitem" style="display:block">
-
-		<li><a href="#"><img src="img/icon/Fun_03.png" id = "fun_li3"></a><div class="itemlabel" id="fun_lid3" style="display:none">label1</div></li>
-	</ul>
-</div> -->
-</div>
+	</div>
+	
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("#gamespan a div.itemlabel").hide();
+			$("#gamespan a").mouseover(function(){
+				$(this).find("div.itemlabel").show();
+			}).mouseout(function(){
+				$(this).find("div.itemlabel").hide();
+			});
+		});
+	</script>
+	
 </body>
-
+</html>
 
