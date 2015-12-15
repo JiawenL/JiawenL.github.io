@@ -2,8 +2,11 @@
 <html>
 <head>
 	<title>LeiLuoQingShan</title>
-	<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
-	<link rel = "stylesheet" href="css/homepage.css" type="text/css">
+    <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+    <link rel = "stylesheet" href="css/homepage.css" type="text/css">
+    <script type="text/javascript" src="js/slick.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
 </head>
 <body>
 <div id = "outerbody">
@@ -29,14 +32,35 @@
 					src="http://www.youtube.com/embed/Cj17iQo5tqw?autoplay=0">
 		</iframe>
 		</p><p>
-		At first, we had a hard time as we did not have any professional art or sound designer and we were too ambitious. We learned a lot of new things from scratch. We designed four different start scences, changed the main story twice, and even almost restarted once. 
-		</p><p>
+		At first, we had a hard time as we did not have any professional art or sound designer and we were too ambitious. We learned a lot of new things from scratch. We designed four different start scenes, changed the main story twice, and even almost restarted once. 
+		</p>
+	</div>
+    <div class="slider">
+        <img src="img/projects/games/llqs/0.jpg">
+        <img src="img/projects/games/llqs/1.jpg">
+        <img src="img/projects/games/llqs/2.jpg">
+        <img src="img/projects/games/llqs/3.jpg">
+		<img src="img/projects/games/llqs/4.jpg">
+    </div>
+	<script type="text/javascript">
+        $(document).ready(function(){
+            $('.slider').slick({
+                autoplay:true,
+                dots: true,
+                infinite: true,
+                fade: true,
+                cssEase: 'linear',
+                arrows:false
+            });
+        })
+    </script>
+	<div class="text">
+		<p>
 		Fortunately, after we won the prize, things became better. Some artists came to help us. We also became more clear about our goal.
 		</p><p>
-		In the latest version of the game, there are 259 scences and more than 500 tasks that can provide a total playing time of 72 hours. Now we already finished two rounds of test and we are still keep polishing it about details, data, and so on. Just email me if you are interested in this or want to join us!
+		In the latest version of the game, there are 259 scenes and more than 500 tasks that can provide a total playing time of 72 hours. Now we already finished two rounds of test and we are still keep polishing it about details, data, and so on. Just email me if you are interested in this or want to join us!
 		<br>&nbsp</p>
 	</div>
-
 	<hr />
 
 	<footer>
