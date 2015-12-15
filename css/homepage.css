@@ -16,7 +16,7 @@ a:active, a:hover{
 
 #outerbody{
 	width: 70%;
-	min-width: 780px;
+	min-width: 660px;
 	margin: auto;
 	padding-top:20px;
 }
@@ -46,6 +46,7 @@ p.headname{
 #selfintro{
 	width: 60%;
 	margin: 10px auto ;
+	font-family: 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
 }
 
 #selfintro a{
@@ -56,7 +57,7 @@ p.headinfo{
 	padding-right: 10px;
 	padding-top: 0;
 	font-size: 15px;
-	font-family: "Arial";
+	font-family: 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
 	color: grey;
 }
 
@@ -97,7 +98,7 @@ div.itemlabel p{
 	color: white;
 	margin: auto;
 	line-height: 20px;
-	font-family: "Lucida Console";
+	font-family: 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
 }
 
 div.itemlabel p:first-child {
@@ -108,13 +109,14 @@ div.itemlabel p:first-child {
 	text-align: center;
 	margin: 40px auto;
 	font-size: 40px;
-	font-family: "Arial";
+	font-family: 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
 	color: #000000;
 }
 
 div.text {
-	max-width: 700px;
-	margin: 40px auto;
+	max-width: 75%;
+	margin: auto;
+	font-family: 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
 }
 
 footer{
@@ -148,12 +150,13 @@ div.profiletext{
 }
 
 div.profiletext p {
+	font-family: 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
 }
 
 div.profiletext h3{
     text-align: center;
     font-weight:bold;
-    font-family: "Lucida Console";
+    font-family: "Lucida Console";font-family: 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
 }
 
 #profile img {
@@ -162,4 +165,19 @@ div.profiletext h3{
     float: right;
     border-radius:7px;
 	margin-top: 20px;
+}
+
+#centerimageCG {
+	width: 85%;
+	max-width: 500px;
+	height: auto;
+	text-align: center;
+	margin: auto;
+}
+
+#emptyzone{
+	width: 100%;
+	height: 30px;
+	background-color: #FFFFFF;
+	margin: 0px;
 }

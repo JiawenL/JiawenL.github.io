@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dream in Tang Dynasty</title>
+	<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+	<link rel = "stylesheet" href="css/homepage.css" type="text/css">
+	<script type="text/javascript" src="js/slick.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
+</head>
+<body>
+<div id = "outerbody">
+	
+	<ul id="menu">
+		<li><a href="index.html">Home</a></li>
+		<li><a href="index.html#myname">About</a></li>
+		<li><a href="mailto:taobingxue@gmail.com">Contact</a></li>
+	</ul>
+	
+	<hr />
+	<div id = "emptyzone"> </div>
+	<h2 class="title">Dream in Tang Dynasty</h2>
+	<hr />
+	<div class="text">
+		<p>Dream in Tang Dynasty is a life simulation game based on Qt in C++ made by myself in 2012.
+		</p><p>
+		In the game, you can control and name a girl who lives in Tang Dynasty in ancient China from 10 years old to 17 years old. You can learn, work, talk with people, join activities, and so on. You should help her protect her family from being killed by the emperor. Finally, she can marry someone she loves or not, become successful, or even totally change the history of Tang Dynasty.
+		</p><p>
+		I wrote most of the code in C++, and got help with Qt from <a href = "https://github.com/yuzeming" target = "_blank">Zeming Yu</a>. The whole story is written by me. All the art assets and sound effect were download from open source website, and I edited some of them with Photoshop.
+		</p>
+	</div>
+	<div class="slider">
+		<img src="img/projects/games/Tang/start.png">
+		<img src="img/projects/games/Tang/characters.png">
+		<img src="img/projects/games/Tang/map.png">
+		<img src="img/projects/games/Tang/normal.png">
+		<img src="img/projects/games/Tang/food.png">
+	</div>
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('.slider').slick({
+				autoplay:true,
+				dots: true,
+				infinite: true,
+				fade: true,
+				cssEase: 'linear',
+				arrows:false
+		});
+		})
+	</script>
+	<hr />
+	
+	<footer>
+		<p >&copy; 2015 Jiawen's. All rights reserved.</p>
+	</footer>
+</div>
+
+</body>
+</html>
