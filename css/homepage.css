@@ -17,6 +17,7 @@ a:active, a:hover{
 #outerbody{
 	width: 70%;
 	min-width: 660px;
+	max-width: 1024px;
 	margin: auto;
 	padding-top:20px;
 }
