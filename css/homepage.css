@@ -22,11 +22,27 @@ a:active, a:hover{
 	padding-top:20px;
 }
 
+#myheader{
+	overflow:hidden;
+	height: 55px;
+	width: 100%;
+}
+
+#menuholder{
+	height: 100%;
+	width: 65%;
+	float: left;
+}
+
 #menu{
+	padding-top: 15px;
+	width: 100%;
 	font-size: 17px;
 	font-family: "Arial";
 	list-style: none;
 	margin-bottom: -2px; 
+    height: auto;
+	overflow:hidden;
 }
 
 #menu li { 
@@ -38,10 +54,24 @@ a:active, a:hover{
 	text-decoration:none; 
 }
 
+#myname {
+	width: 30%;
+	float: right;
+}
+#myname a{
+	text-decoration:none;
+}
+#myname a:active, a:hover{
+	color: #000000;
+}
+
+#centername {
+	width: 100%;
+}
+
 p.headname{
-	font-size: 40px;
 	font-family: "Arial";
-	text-align: center;
+	font-size: 40px;
 }
 
 #selfintro{
@@ -182,3 +212,4 @@ div.profiletext h3{
 	background-color: #FFFFFF;
 	margin: 0px;
 }
+
