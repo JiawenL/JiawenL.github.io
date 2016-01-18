@@ -1,5 +1,6 @@
 body{
-	background-color: white;
+	background-image:url("../img/bg.jpg"); 
+	background-repeat: repeat;
 }
 
 a:visited,a:link{
@@ -65,6 +66,7 @@ a:active, a:hover{
 	color: #000000;
 }
 
+
 #centername {
 	width: 100%;
 }
@@ -91,6 +93,7 @@ p.headinfo{
 	font-family: 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
 	color: grey;
 }
+
 
 #gamespan{
 	width: 100%;
@@ -206,10 +209,36 @@ div.profiletext h3{
 	margin: auto;
 }
 
+
+#contactholder {
+	width: 85%;
+	text-align: center;
+}
+
+#mycontact {
+	width: 100%;
+	font-size: 17px;
+	font-family: "Lucida Console";font-family: 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
+	list-style: none;
+	margin-bottom: -2px; 
+    height: auto;
+	overflow:hidden;
+}
+
+#mycontact li {
+	display: inline-block;
+	width: 270px;
+	text-align: center;
+}
+
+#mycontact a {
+	text-decoration: none;
+}
+
+
 #emptyzone{
 	width: 100%;
 	height: 30px;
-	background-color: #FFFFFF;
 	margin: 0px;
 }
 
