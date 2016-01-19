@@ -25,9 +25,9 @@
 	</div>
 	<hr />
 	
-	<div id = "emptyzone"> </div>
+	<div class = "emptyzone"> </div>
 	<img id="headimage" src="img/headimage.png" style="text-align:middle;" width="100%" height="100%"> </img>
-	<div id = "emptyzone"> </div>
+	<div class = "emptyzone"> </div>
 	
 	<p style = "font-size:55px; margin-bottom:10px; text-align: center;font-family: Arial">Welcome to my portfolio!</p>
 	<hr />
@@ -61,7 +61,7 @@
 	</div>
 	<hr />
 	
-	<div id="gamespan">
+	<div class="gamespan">
 		<a href="project1_Leiluoqingshan.html" target="_blank">
 				<img src="img/icon/Game_01.jpg">
 				<div class="itemlabel">
@@ -112,10 +112,10 @@
 				</div>
 		</a>
 	</div>
-	<div id = "emptyzone"> </div>
+	<div class = "emptyzone"> </div>
 	<hr />
 	
-	<div id = "emptyzone"> </div>
+	<div class = "emptyzone"> </div>
 	<p style = "font-size:40px; margin-bottom:10px; text-align: center;font-family: Arial">Contact</p>
 	<div id = "contactholder" class = "contact">
 		<ul id = "mycontact">
@@ -124,10 +124,10 @@
 			<li><p><b>LinkedIn</b>: <a href = "http://www.linkedin.com/in/jiawen-liang-273ba8a2" target="_blank">jiawen-liang</a></p></li>
 		</ul>
 	</div>
-	<div id = "emptyzone"> </div>
+	<div class = "emptyzone"> </div>
 	<hr />
 
-	<div id = "emptyzone"> </div>
+	<div class = "emptyzone"> </div>
 	<p style = "font-size:40px; margin-bottom:10px; text-align: center;font-family: Arial" id = "hobbies">Hobbies</p>
 	<div class="text">
 		<p>
@@ -136,9 +136,9 @@
 		Fine art also have unique charm in my eyes. I learned traditional chinese painting for four years. You can find some examples of my work below.
 		</p>
 	</div>
-	<div id = "emptyzone"> </div>
+	<div class = "emptyzone"> </div>
 	
-	<div id="gamespan">
+	<div class="gamespan">
 		<a href="project10_article.html"  target="_blank">
 				<img src="img/icon/Article.jpg">
 				<div class="itemlabel">
@@ -159,23 +159,29 @@
 				</div>
 		</a>
 	</div>
-	<div id = "emptyzone"> </div>
+	<div class = "emptyzone"> </div>
 	<hr />
 
 	<footer>
 		<p >&copy; 2015 Jiawen's. All rights reserved.</p>
 	</footer>
-	<div id = "emptyzone"> </div>
+	<div class = "emptyzone"> </div>
 	</div>
 	
 	<script type="text/javascript">
 		$(document).ready(function(){
-			$("#gamespan a div.itemlabel").hide();
-			$("#gamespan a").mouseover(function(){
+			$(".gamespan a div.itemlabel").hide();
+			$(".gamespan a").mouseover(function(){
 				$(this).find("div.itemlabel").show();
 			}).mouseout(function(){
 				$(this).find("div.itemlabel").hide();
 			});
+            $( window ).resize(function(){
+				var w = $( window  ).width();
+				var wi = $(".gamespan a").width() + 10;
+				$(".gamespan").width(Math.min(Math.floor(w/wi),3)*wi );
+            });
+			$( window ).resize();
 		});
 	</script>
 	
