@@ -238,3 +238,8 @@ div.profiletext h3{
 	margin: 0px;
 }
 
+#selfintro {
+	width: 65%;
+	height: auto;
+	overflow:hidden;
+}
