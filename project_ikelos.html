@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PlayStation VR(Ikelos)</title>
+    <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+    <link rel = "stylesheet" href="css/homepage.css" type="text/css">
+    <script type="text/javascript" src="js/slick.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
+</head>
+<body>
+<div id = "outerbody">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<div id = "myheader">
+		<div id = "menuholder">
+			<ul id="menu">
+				<li><a href="index.html#">&nbsp&nbsp&nbspHome</a></li>
+				<li><a href = "https://github.com/taobingxue" target="_blank">&nbspGithub</a></li>
+				<li><a href = "resume.pdf" target="_blank">&nbspResume</a></li>
+				<li><a href = "about.html">&nbsp&nbsp&nbspAbout</a></li>
+				<li><a href = "index.html#contactholder">&nbspContact</a></li>
+				<li><a href = "index.html#hobbies">&nbsp&nbspHobbies</a></li>
+			</ul>
+		</div>
+		<div id = "myname">
+			<a href="index.html#"><p style = "font-size: 40px; margin:2px;font-family: Arial">Jiawen Liang</p></a>
+		</div>
+	</div>
+	<hr />
+	
+	<div class = "emptyzone"> </div>
+	<h2 class="title">PlayStation VR - Team Ikelos</h2>
+	<hr />
+	<div class="text">
+		<p style = "text-align:center;">Engine: <b>Unity 5.3</b>  |  Duration: <b>1 semester</b>  |  Role: <b>Programmer</b></p>
+		<p style = "text-align:center;">Platform: <b>Mobile VR</b>(Andriod and Google Cardboard)</p>
+		<p>
+		Ikelos is experimenting with Virtual Reality and Game Design with Sony PlayStation. Our goal is to create moments that can only be experienced in Virtual Reality through the rapid prototyping of games. We are focused on creating VR driven mechanics, while providing feedback that is juicy and meaningful, keeping the interactions simple, fun and novel. 
+		</p><p>
+		Through constant experimentation and play testing we aim to push the boundaries of what can be enjoyed in VR. Working with mobile VR and controllers, we create delightful play.
+		</p><p>
+		After the whole 16 weeks, we finished 13 different mechanics and one polished game. As one of two programmers in the team, I implemented 7 mechanics and the core framework of our final game. You can check more details from our <a href = "http://www.etc.cmu.edu/projects/ikelos/"  target="_blank">website</a>.
+		</p>
+	</div>
+	<div class="slider">
+        <img src="img/projects/ikelos/0.jpg">
+		<img src="img/projects/ikelos/1.jpg">
+		<img src="img/projects/ikelos/2.jpg">
+		<img src="img/projects/ikelos/3.jpg">
+		<img src="img/projects/ikelos/4.jpg">
+    </div>
+	<script type="text/javascript">
+        $(document).ready(function(){
+            $('.slider').slick({
+                autoplay:true,
+                dots: true,
+                infinite: true,
+                fade: true,
+                cssEase: 'linear',
+                arrows:false
+            });
+        })
+    </script>
+	
+	<footer>
+		<p >&copy; 2015 Jiawen's. All rights reserved.</p>
+	</footer>
+</div>
+</body>
+</html>
